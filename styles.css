@@ -57,7 +57,7 @@ img {
   margin: 0;
   width: 60rem;
   height: 100vh;
-  background-image: url(/assets/img/green-plant-leaf.webp);
+  background-image: url(./assets/img/green-plant-leaf.webp);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
