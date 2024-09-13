@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sigin up form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="fullscreen-body">
+      <div id="left-image-bg">
+        <div id="logo-bg">
+          <img src="/assets/img/odin-logo.png" alt="odin logo" />
+        </div>
+        <div id="logo-text">Odin</div>
+        <p id="credit">credit to Halie West</p>
+      </div>
+      <div class="sign-up-form">
+        <div id="main-container">
+          <h1>
+            This is not a real online service! You know you need something like
+            this in your life to help realize deepest dream sign up now to get
+            started
+          </h1>
+          <h2>YOu know you want to.</h2>
+          <div class="form-container">
+            <h1>Let's do this!</h1>
+            <form action="#">
+              <div id="user-input">
+                <div id="names">
+                  <p>
+                    <label for="first-name"><span>FIRST NAME</span></label>
+                    <input
+                      type="text"
+                      maxlength="30"
+                      id="first-name"
+                      name="firstName"
+                    />
+                  </p>
+                  <p>
+                    <label for="last-name"><span>LAST NAME</span></label>
+                    <input
+                      type="text"
+                      maxlength="30"
+                      id="last-name"
+                      name="latName"
+                    />
+                  </p>
+                </div>
+                <div id="other-credentials">
+                  <p>
+                    <label for="email"><span>EMAIL</span></label>
+                    <input type="email" name="userEmail" id="email" />
+                  </p>
+                  <p>
+                    <label for="phone-number"><span>PHONE NUMBER</span></label>
+                    <input
+                      type="text"
+                      id="phone-number"
+                      name="userPhone"
+                    />
+                  </p>
+                </div>
+                <div id="password-input">
+                  <p>
+                    <label for="pwd"><span>PASSWORD</span></label>
+                    <input type="password" id="pwd" name="userPwd" required/>
+                  </p>
+                  <p>
+                    <label for="confirm-pwd"><span>CONFIRM PASSWORD</span></label>
+                    <input type="password" id="confirm-pwd" name="userPwd" required/>
+                  </p>
+              </div>
+              </div>
+              <button type="submit" id="create-account">Create account</button>
+              <p>Alredy have an account?<span id="log-in">Log in</span></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
